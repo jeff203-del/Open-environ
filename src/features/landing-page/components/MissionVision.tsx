@@ -20,7 +20,7 @@ const missionVisionContent = [
     title: "Mission",
     headline: "Empower Learners to Take Action",
     description:
-      "Tawi turns learning about climate conservation and forest preservation into an engaging, gamified experience. Earn points, unlock badges, and grow your virtual forest while making a real-world impact.",
+      "Open environ turns learning about climate conservation and forest preservation into an engaging, gamified experience. Earn points, unlock badges, and grow your virtual forest while making a real-world impact.",
     cta: "Start Learning",
   },
   {
@@ -38,7 +38,7 @@ const MissionVision = () => {
     <Box bg="primary.1" p={{ base: "md", sm: "lg", md: 80, lg: 120 }}>
       <SectionTitle
         title="MISSION & VISION"
-        description="Why I built Tawi and what I aim to achieve"
+        description="Why I built Open environ and what I aim to achieve"
       />
 
       <SimpleGrid
