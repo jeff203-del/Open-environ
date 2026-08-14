@@ -14,7 +14,7 @@ import { getPrimaryColorHexCode } from "@/lib/utils";
 
 const faqs = [
   {
-    value: "Who can join Tawi?",
+    value: "Who can join Open environ?",
     description:
       "Anyone passionate about learning and protecting the environment can join. Just sign up and start completing lessons to earn points and badges.",
     emoji: "🌱",
@@ -34,7 +34,7 @@ const faqs = [
   {
     value: "How do my actions help real forests?",
     description:
-      "Your engagement translates into real-world impact through Tawi's partner forestation initiatives and conservation projects.",
+      "Your engagement translates into real-world impact through Open environ's partner forestation initiatives and conservation projects.",
     emoji: "🌳",
   },
   {
@@ -68,9 +68,9 @@ const faqs = [
     emoji: "👥",
   },
   {
-    value: "Is Tawi mobile-friendly?",
+    value: "Is Open environ mobile-friendly?",
     description:
-      "Absolutely. Tawi is designed to work on desktop and mobile devices, so you can learn and grow your forest anywhere.",
+      "Absolutely. Open environ is designed to work on desktop and mobile devices, so you can learn and grow your forest anywhere.",
     emoji: "📱",
   },
 ];
@@ -81,7 +81,7 @@ const Faqs = () => {
       <Container size="lg">
         <SectionTitle
           title="FAQS"
-          description="Got questions about Tawi? We have the answers!"
+          description="Got questions about Open environ? We have the answers!"
         />
 
         <ScrollArea
