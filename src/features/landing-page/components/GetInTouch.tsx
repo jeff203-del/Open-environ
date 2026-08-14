@@ -38,13 +38,13 @@ import GetInTouchIllustration from "~/public/landing-page/get-in-touch.svg";
 const contacts: { Icon: TablerIcon; label: string; href: string }[] = [
   {
     Icon: IconPhoneFilled,
-    label: "+254704150182",
-    href: "tel:+254704150182",
+    label: "+253769589130",
+    href: "tel:+254769589130",
   },
   {
     Icon: IconMailFilled,
-    label: "danielkarume@outlook.com",
-    href: "mailto:danielkarume@outlook.com",
+    label: "jeffmutembei203@gmail.com",
+    href: "mailto:jeffmutembei203@gmail.com",
   },
   {
     Icon: IconMapPinFilled,
