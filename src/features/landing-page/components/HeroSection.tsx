@@ -37,7 +37,7 @@ const HeroSection = () => {
               Learn, Grow, and Protect the Planet.
             </Title>
             <Text style={{ textAlign: "center" }}>
-              Join Tawi, the gamified learning platform that turns every lesson
+              Join Open environ, the gamified learning platform that turns every lesson
               into action for the environment. Earn points, unlock badges, and
               grow your forest while mastering climate conservation and forest
               preservation skills.
