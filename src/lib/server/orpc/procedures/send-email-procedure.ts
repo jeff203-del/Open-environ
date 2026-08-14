@@ -11,6 +11,14 @@ export const sendEmailProcedure = os
     }),
   )
   .handler(async ({ input }) => {
-    const result = await sendEmail(input);
-    return result;
+  const recipient = process.env.CONTACT_EMAIL ?? process.env.SMTP_USER;
+
+  if (!recipient) {
+    throw new Error("Contact email recipient is not configured");
+  }
+
+  return sendEmail({
+    ...input,
+    to: recipient,
   });
+});
