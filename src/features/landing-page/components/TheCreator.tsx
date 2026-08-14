@@ -65,7 +65,7 @@ const TheCreator = () => {
                   <IconBrandLinkedin size={20} stroke={1.5} />
                 </Anchor>
                 <Anchor
-                  href="https://open-environ.vercel.app/"
+                  href="https://open-environ.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
