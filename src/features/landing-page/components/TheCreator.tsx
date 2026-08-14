@@ -24,7 +24,7 @@ const TheCreator = () => {
       <Container size="lg">
         <SectionTitle
           title="ABOUT THE CREATOR"
-          description="Meet Daniel Karume, the mind behind Tawi"
+          description="Meet Jeff Mutembei, the mind behind Open environ"
         />
 
         <SimpleGrid
@@ -35,8 +35,8 @@ const TheCreator = () => {
           <Card shadow="sm" radius="md" withBorder>
             <CardSection>
               <Image
-                src="/landing-page/daniel-karume.png"
-                alt="Daniel Karume's picture"
+                src="/landing-page/jeff-environ.JPG"
+                alt="Jeff Mutembei's picture"
                 height={300}
                 fit="cover"
                 width="100%"
@@ -44,28 +44,28 @@ const TheCreator = () => {
             </CardSection>
 
             <Stack align="center" gap="xs" p="md">
-              <Title order={5}>Daniel Karume</Title>
+              <Title order={5}>Jeff Mutembei's</Title>
               <Text size="sm" c="dimmed">
-                Software Engineer & Founder
+                Software Engineer 
               </Text>
 
               <Group gap="xs" mt="xs" wrap="wrap" justify="center">
                 <Anchor
-                  href="https://github.com/Karume-Lab"
+                  href="https://github.com/jeff203-del"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <IconBrandGithub size={20} stroke={1.5} />
                 </Anchor>
                 <Anchor
-                  href="https://linkedin.com/in/daniel-karume/"
+                  href="https://www.linkedin.com/in/jeff-mutembei/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <IconBrandLinkedin size={20} stroke={1.5} />
                 </Anchor>
                 <Anchor
-                  href="https://karume.vercel.app"
+                  href="https://open-environ.vercel.app/
                   target="_blank"
                   rel="noopener noreferrer"
                 >
