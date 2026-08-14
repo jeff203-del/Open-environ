@@ -90,7 +90,7 @@ const GetInTouch = () => {
 
   const handleSubmit = (values: GetInTouchWithUsSchema) => {
     sendEmail.mutate({
-      to: process.env.SMTP_USER ?? "",
+      
       subject: `New message from ${values.fullName}`,
       html: `
         <h2>New Contact Form Submission</h2>
