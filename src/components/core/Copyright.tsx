@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 const Copyright = () => {
   return (
     <Text size="sm" c="dimmed">
-      &copy; {dayjs().year()} Tawi. All rights reserved.
+      &copy; {dayjs().year()} Open environ. All rights reserved.
     </Text>
   );
 };
